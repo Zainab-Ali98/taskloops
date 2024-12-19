@@ -38,4 +38,4 @@ while(countdown> 0)
 }
 
 //bonus
-//To store tabels (rows and colums)
+// Multidimensional array are useful to data in a tabular form such as tabels(rows and colums)
