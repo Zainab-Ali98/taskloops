@@ -19,6 +19,16 @@ for( int y= 0; y< daysOfWeek.Length; y++)
     Console.WriteLine(" week days " + daysOfWeek[y]);
 }
 
+
+int[] number = { 1, 2, 3, 4, 5,};
+int sum = 0;
+for (int z = 1; z <=number.Length; z++)
+{
+    sum += z;
+
+}
+Console.WriteLine("the sum is : " + sum);
+
 //bonus
 int countdown = 5;
 while(countdown> 0)
