@@ -12,7 +12,7 @@ for (int i = 1; i <= 10; i++)
 }
 
 //arrays
-string[] daysOfWeek = { "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday", "Sunday"};
+string[] daysOfWeek = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
 
 for( int y= 0; y< daysOfWeek.Length; y++)
 {
@@ -22,7 +22,7 @@ for( int y= 0; y< daysOfWeek.Length; y++)
 
 int[] number = { 1, 2, 3, 4, 5,};
 int sum = 0;
-for (int z = 1; z <=number.Length; z++)
+for (int z = 0; z <=number.Length; z++)
 {
     sum += z;
 
